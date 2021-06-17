@@ -15,6 +15,7 @@
 yarn add rsan-pages -D
 ```
 ### 添加工作流
+在你的项目中`package.json`，修改：
 ```json
 {
     "scripts": {
@@ -26,7 +27,7 @@ yarn add rsan-pages -D
 ```
 
 ### 配置项目
-在你的项目中配置, 例如
+在你的项目中新增`pages.config.js`文件，并配置内容，例如：
 ```javascript
 module.exports = {
   build: {
@@ -88,6 +89,5 @@ module.exports = {
 |  ----  | ----  |
 | build  | 构建配置 |
 | data  | 多页面配置 |
-
-
+---
 最后，祝使用愉快！
